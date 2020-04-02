@@ -1,6 +1,5 @@
 {"type": "FeatureCollection",
   "features": [
-
     {"id":0,"type":"Feature","geometry":{"type":"Point","coordinates":[45.086104,8.365489]},"properties":{"balloonContentBody":"<h3>SP37</h3><p>Италия, Пьемонт, провинция Алессандрия</p>","name":"SP37","text":"Италия, Пьемонт, провинция Алессандрия, SP37","clusterCaption":"SP37","isOk":false,"notInstalled":false,"comment":"\t\t"}},
   {"id":1,"type":"Feature","geometry":{"type":"Point","coordinates":[60.25044,30.209637]},"properties":{"balloonContentBody":"<h3>41К-073</h3><p>Россия, Ленинградская область</p>","name":"41К-073","text":"Россия, Ленинградская область, 41К-073","clusterCaption":"41К-073","isOk":false,"notInstalled":false,"comment":"\t\t"}},
   {"id":2,"type":"Feature","geometry":{"type":"Point","coordinates":[60.250321,30.24934]},"properties":{"balloonContentBody":"<h3>41К-179</h3><p>Россия, Ленинградская область</p>","name":"41К-179","text":"Россия, Ленинградская область, 41К-179","clusterCaption":"41К-179","isOk":false,"notInstalled":false,"comment":"\t\t"}},
