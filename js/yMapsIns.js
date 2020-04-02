@@ -31,28 +31,8 @@ function initPointsMap() {
 }
 
 
-//contact page map initialization
-function initContactMap() {
-  var myMap = new ymaps.Map('contact_map', {
-    center: [59.935390, 30.451630],
-    zoom: 11,
-    controls: ['zoomControl']
-  });
-  /*59.935390, 30.451630*/
 
-  var myPlacemark = new ymaps.Placemark([59.935390, 30.451630], {
-    balloonContentHeader: 'улица Латышских Стрелков, 31',
-    balloonContentBody: 'Санкт-Петербург, улица Латышских Стрелков, 31',
-    hintContent: 'улица Латышских Стрелков, 31',
-    balloonContent:'улица Латышских Стрелков, 31',
-  });
-
-  myMap.geoObjects.add(myPlacemark);
-  myPlacemark.balloon.open();
-}
 
 jQuery(document).ready(function($) {
   ymaps.ready(initPointsMap);
-  ymaps.ready(initContactMap);
-  ymaps.ready(initAdressMap);
 });
